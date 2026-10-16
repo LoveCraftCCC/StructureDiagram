@@ -1,0 +1,11 @@
+{
+  "name": "deck-craft",
+  "version": "0.3.0",
+  "description": "Constrained-layout HTML deck generator for coding agents, with archify playbook for structure diagrams",
+  "type": "module",
+  "main": "scripts/html-deck.mjs",
+  "scripts": {
+    "demo": "node examples/demo-html.mjs",
+    "render": "node scripts/render-check-html.mjs"
+  }
+}

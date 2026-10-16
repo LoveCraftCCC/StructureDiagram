@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "finalize",
+  "status": "pass",
+  "type": "architecture",
+  "quality": "showcase",
+  "specification": {
+    "path": "/tmp/archify-structure-qa/examples/rag-pipeline.architecture.json",
+    "sha256": "2fc128ddf096b158dd2a80aa91fd8bbe4475f3ef1d00d6967f56aee8e3fde17e",
+    "bytes": 4546
+  },
+  "artifact": {
+    "path": "/tmp/archify-structure-output/rag-pipeline.html",
+    "sha256": "bc58b145121968c9e67c41d2512bf71c4ab2fcd0f62374894cfb76a1879a436a",
+    "bytes": 830245
+  },
+  "gates": {
+    "validate": "pass",
+    "deliver": "pass",
+    "check": "pass",
+    "browser-check": "pass"
+  },
+  "diagnostics": [],
+  "diagnosticSummary": {
+    "total": 0,
+    "shown": 0,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "/tmp/archify-structure-output/rag-pipeline.finalize.json",
+    "summaryReceipt": "/tmp/archify-structure-output/rag-pipeline.finalize-summary.json",
+    "browserCheckReceipt": "/tmp/archify-structure-output/rag-pipeline.browser-check.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.1.0",
+    "availableVersion": "3.1.0",
+    "releaseNotes": null,
+    "checkedAt": "2026-10-16T02:49:44.597Z",
+    "source": "network",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 2898
+}
